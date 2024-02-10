@@ -1,19 +1,16 @@
 ## Darshan Phaldesai / mystchonky / chonky
 
-I am a very curious programmer who loves to learn new things. I love to break (working) things and enjoy building them back (which is why I absolutely love Neovim and my Linux machine :P ).
+curious programmer who loves to learn new things. loves to break (working) things and building them back.
 
-I am always learning new tech and programming languages. I am currently learning Graphics programming along with Rust and integrating into KDE/Kirigami stack!
+currently learning Rust🦀 along with Graphics programming and QT.
 
 ### Projects:
 
-I love FOSS and care alot about it! I am a contributor to many fantastic open source projects:
+FOSS is awesome :)
+look at some cool projects that I worked with
 
-- [Pixelorama](https://github.com/Orama-Interactive/Pixelorama) is an amazing Pixel Art drawing software made in Godot Engine
-- Minecraft Mods like [EnderIO](https://github.com/Team-EnderIO/EnderIO) and [Blood Magic](https://github.com/WayofTime/BloodMagic) (I have plenty of personal mods :) )
+- [Pixelorama](https://github.com/Orama-Interactive/Pixelorama) - amazing Pixel Art program made in Godot Engine
+- [EnderIO](https://github.com/Team-EnderIO/EnderIO) - Necromancy(?) Tech mod
+- [Blood Magic](https://github.com/WayofTime/BloodMagic)
 
-### Contact Information
-
-- Email: `dev.darshanphaldesai <at> gmail.com`
-- Discord: @mystchonky
-
-My (current) dream project is to build a fully extensible GUI frontend for Neovim
+Currently working on `Machina` and `konossieur`
