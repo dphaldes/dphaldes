@@ -1,16 +1,12 @@
-## Darshan Phaldesai / mystchonky / chonky
+## Darshan Phaldesai / chonky
+I ~~break~~ make things !
 
-curious programmer who loves to learn new things. loves to break (working) things and building them back.
+### Cool projects that I worked on:
 
-currently learning Rust🦀 along with Graphics programming and QT.
+- [Pixelorama](https://github.com/Orama-Interactive/Pixelorama) - Pixel Art program made in Godot Engine
+- [cxx-kde-frameworks](https://invent.org/libraries/cxx-kde-frameworks) - Rust Bridge for KDE Frameworks
 
-### Projects:
-
-FOSS is awesome :)
-look at some cool projects that I worked with
-
-- [Pixelorama](https://github.com/Orama-Interactive/Pixelorama) - amazing Pixel Art program made in Godot Engine
-- [EnderIO](https://github.com/Team-EnderIO/EnderIO) - Necromancy(?) Tech mod
+#### Minecraft Mods
+- [EnderIO](https://github.com/Team-EnderIO/EnderIO) - Necromancy Tech mod
 - [Blood Magic](https://github.com/WayofTime/BloodMagic)
-
-Currently working on `Machina` and `konossieur`
+And [many others](https://legacy.curseforge.com/members/mystchonky/projects)
