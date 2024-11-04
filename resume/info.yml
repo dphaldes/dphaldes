@@ -1,0 +1,173 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jskherman/imprecv/main/cv.typ.schema.json
+
+personal:
+  name: Darshan Phaldesai
+  email: dev.darshanphaldesai@gmail.com
+  phone: +1 (602) 756 3960
+  url: null
+  titles:
+    - Software Engineer
+    - Open Source Enthusiast
+  location:
+    city: Tempe
+    region: Arizona
+    country: United States of America
+  profiles:
+    - network: LinkedIn
+      username: Darshan Phaldesai
+      url: https://linkedin.com/in/dphaldes
+    - network: GitHub
+      username: Darshan Phaldesai
+      url: https://github.com/dphaldes
+
+work:
+  - organization: Tata Motors Ltd., Engineering Research Centre
+    url: https://www.tatamotors.com/
+    location: Pune, India
+    positions:
+      - position: Project Trainee
+        startDate: 2022-06-01
+        endDate: 2022-08-31
+        highlights:
+          - Responsible for creating internal prototyping and testing tools.
+          - Created tools for interfacing with Vehicle CAM modules via *Bluetooth LE* and *TCP Sockets* (written in *Python*)
+          - Made a *native Android app* and *Android Auto* frontend for Vehicle battery and range information
+  - organization: AmbiTech Healthcare
+    url: https://www.ambitechhealthcare.com
+    location: Pune, India
+    positions:
+      - position: Intern - Technical Lead and Mobile Developer
+        startDate: 2021-09-01
+        endDate: 2022-03-01
+        highlights:
+          - Responsible for developing solutions for internal prototyping, cross-system communications between hardware and web backend and product showcase
+          - Managed a team of developers and project scope which included assessments, risk evaluations, testing, and implementation.
+          - Created a cross-platform mobile application in *Flutter* and a backend in *NodeJS* with support for *REST*,  *Authentication*, *Cloud Synchronization*, and *Bluetooth Interfacing*
+education:
+  - institution: Arizona State University
+    url: https://www.asu.edu/
+    area: Software Engineering
+    studyType: Master of Science
+    startDate: 2024-08-22
+    endDate: 2026-06-30
+    location: Tempe, Arizona
+    honors: null
+    courses: null
+    highlights: null
+  - institution: Savitribai Phule Pune University
+    url: http://www.unipune.ac.in/
+    area: Information Technology
+    studyType: Bachelor of Science
+    startDate: 2019-06-15
+    endDate: 2023-05-30
+    location: Pune, India
+    honors: null
+    courses: null
+    highlights: null
+
+affiliations:
+  - organization: Open Source Developer
+    position: null
+    location: null
+    url: null
+    startDate: 2020-01-01
+    endDate: "present"
+    highlights:
+      - KDE Developer and creator of *cxx-kde-frameworks*
+      - Worked on multiple projects in several different fields including Art Software, Graphics Programming, Game modifications and User applications.
+  - organization: Google Developer Student Club
+    position: Android Facilitator and Flutter Lead
+    location: Pune, India
+    url: null
+    startDate: 2021-08-15
+    endDate: 2022-07-30
+    highlights:
+      - Organized Android Study Jams with Kotlin and Flutter Festival
+
+awards: null
+certificates: null
+
+publications:
+  - name: A Review of the OWASP Top 10 Web Application Security Risks and Best Practices for Mitigating These Risks
+    publisher: IEEE
+    releaseDate: 2024-01-22
+    url: https://doi.org/10.1109/ICCUBEA58933.2023.10392030
+
+projects:
+  - name: cxx-kde-frameworks
+    url: https://invent.org/libraries/cxx-kde-frameworks
+    affiliation: KDE.org
+    startDate: null
+    endDate: null
+    highlights:
+      - Rust bridge for writing applications and widgets using Qt and KDE Frameworks.
+      - Created to reduce the effort required to make cross-platform applications in pure rust.
+  - name: Game Modifications
+    url: null
+    affiliation: null
+    startDate: null
+    endDate: null
+    highlights:
+      - Worked on several projects that use runtime bytecode manipulation to add, extend and modify functionality of a popular java game.
+      - Areas of work include *networking*, *data synchronization*, *3D rendering* and optimization
+      - Over 20 Million downloads
+  - name: Mobile Apps
+    url: null
+    affiliation: null
+    startDate: null
+    endDate: null
+    highlights:
+      - Eiga -  *Flutter* app for Anilist API. Uses Material 3, OAuth2, *GraphQL* and Caching
+      - Warframe Market - Native Android App written in *Kotlin* using *Jetpack Compose* and *Dagger/Hilt*
+
+skills:
+  - category: Soft Skills
+    skills:
+      - Public Speaking
+      - Debating
+      - Critical Thinking
+      - Leadership
+  - category: Programming
+    skills:
+      - C/C++
+      - Java
+      - Kotlin
+      - Rust
+      - Dart
+      - Python
+      - Shell/Bash/Zsh
+      - Lua
+      - Javascript/Typescript
+  - category: Tools and Frameworks
+    skills:
+      - Linux
+      - Android
+      - Flutter
+      - Qt
+      - Gradle
+      - Godot Game Engine
+      - Unity Game Engine
+      - Gradle/Maven
+      - CMake
+      - OpenGL
+      - Vulkan
+  - category: Other
+    skills:
+      - Shell scripting and Automation
+      - CI/CD DevOps
+      - Testing
+
+languages:
+  - language: English
+    fluency: Proficient
+  - language: Hindi
+    fluency: Native speaker
+  - language: Marathi
+    fluency: Native speaker
+
+interests:
+  - Video Games
+  - Books
+  - Music
+
+references: null
