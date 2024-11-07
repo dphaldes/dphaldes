@@ -47,7 +47,6 @@
         } else {
             upper(it.body)
         }
-        #v(2pt)
     ]
 
     doc
@@ -142,9 +141,7 @@
                     #text(style: "italic")[#p.position] #h(1fr)
                     #utils.daterange(start, end) \
                     // Highlights or Description
-                    #for hi in p.highlights [
-                        - #eval(hi, mode: "markup")
-                    ]
+                    #eval(p.summary, mode: "markup")
                 ]
                 index = index + 1
             }
@@ -190,35 +187,6 @@
     ]}
 }
 
-#let cvaffiliations(info, title: "Leadership and Activities", isbreakable: true) = {
-    if info.affiliations != none {block[
-        == #title
-        #for org in info.affiliations {
-            // Parse ISO date strings into datetime objects
-            let start = utils.strpdate(org.startDate)
-            let end = utils.strpdate(org.endDate)
-
-            // Create a block layout for each affiliation entry
-            block(width: 100%, breakable: isbreakable)[
-                // Line 1: Organization and Location
-                #if org.url != none [
-                    *#link(org.url)[#org.organization]* #h(1fr) *#org.location* \
-                ] else [
-                    *#org.organization* #h(1fr) *#org.location* \
-                ]
-                // Line 2: Position and Date
-                #text(style: "italic")[#org.position] #h(1fr)
-                #utils.daterange(start, end) \
-                // Highlights or Description
-                #if org.highlights != none {
-                    for hi in org.highlights [
-                        - #eval(hi, mode: "markup")
-                    ]
-                } else {}
-            ]
-        }
-    ]}
-}
 
 #let cvprojects(info, title: "Projects", isbreakable: true) = {
     if info.projects != none {block[
@@ -227,14 +195,14 @@
             // Create a block layout for each project entry
             block(width: 100%, breakable: isbreakable)[
                 // Line 1: Project Name
-                #if project.url != none [
-                    *#link(project.url)[#project.name]* \
-                ] else [
-                    *#project.name* \
-                ]
-                // Line 2: Organization and Date
+                *#project.name*
+                // Line 2: Organization
                 #if project.affiliation != none [
-                    #text(style: "italic")[#project.affiliation] \
+                   #h(1fr) #text(style: "italic")[#project.affiliation]
+                ]
+                \
+                #if project.url != none [
+                    #link(project.url)[#project.url] \
                 ]
                 // Summary or Description
                 #for hi in project.highlights [
@@ -307,10 +275,9 @@
             // Create a block layout for each publication entry
             block(width: 100%, breakable: isbreakable)[
                 // Line 1: Publication Title
+                *#pub.name* \
                 #if pub.url != none [
-                    *#link(pub.url)[#pub.name]* \
-                ] else [
-                    *#pub.name* \
+                    #link(pub.url)[#pub.url] \
                 ]
                 // Line 2: Publisher and Date
                 #if pub.publisher != none [
@@ -323,24 +290,11 @@
     ]}
 }
 
-#let cvskills(info, title: "Skills, Languages, Interests", isbreakable: true) = {
-    if (info.languages != none) or (info.skills != none) or (info.interests != none) {block(breakable: isbreakable)[
+#let cvskills(info, title: "Skills", isbreakable: true) = {
+    if  info.skills != none {
+        block(breakable: isbreakable)[
         == #title
-        #if (info.languages != none) [
-            #let langs = ()
-            #for lang in info.languages {
-                langs.push([#lang.language (#lang.fluency)])
-            }
-            - *Languages*: #langs.join(", ")
-        ]
-        #if (info.skills != none) [
-            #for group in info.skills [
-                - *#group.category*: #group.skills.join(", ")
-            ]
-        ]
-        #if (info.interests != none) [
-            - *Interests*: #info.interests.join(", ")
-        ]
+        #info.skills.join(", ")
     ]}
 }
 
@@ -357,6 +311,13 @@
             ]
         }
     ]} else {}
+}
+
+#let cvsummary(info, title: "Summary") = {
+    if info.summary != none { block[
+        == #title
+        #info.summary
+    ]}
 }
 
 #let endnote(uservars) = {

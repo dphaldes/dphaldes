@@ -2,7 +2,7 @@
 
 personal:
   name: Darshan Phaldesai
-  email: dev.darshanphaldesai@gmail.com
+  email: dphaldes@asu.edu
   phone: +1 (602) 756 3960
   url: null
   titles:
@@ -20,18 +20,16 @@ personal:
       username: Darshan Phaldesai
       url: https://github.com/dphaldes
 
+summary: Passionate software engineer with a strong foundation in computer science principles. Successfully designed and implemented numerous open-source projects, including language adapters for libraries and pixel art tools.  Expertise in statically typed languages with a focus on desktop and native software.
 work:
   - organization: Tata Motors Ltd., Engineering Research Centre
     url: https://www.tatamotors.com/
     location: Pune, India
     positions:
-      - position: Project Trainee
+      - position: Intern - Project Trainee
         startDate: 2022-06-01
         endDate: 2022-08-31
-        highlights:
-          - Responsible for creating internal prototyping and testing tools.
-          - Created tools for interfacing with Vehicle CAM modules via *Bluetooth LE* and *TCP Sockets* (written in *Python*)
-          - Made a *native Android app* and *Android Auto* frontend for Vehicle battery and range information
+        summary: Developed Python-based tools to establish communication with vehicle CAM using Bluetooth LE and TCP Sockets, created a native Android app to display real-time vehicle data, and integrated this data into Android Auto to provide a seamless user experience.
   - organization: AmbiTech Healthcare
     url: https://www.ambitechhealthcare.com
     location: Pune, India
@@ -39,10 +37,7 @@ work:
       - position: Intern - Technical Lead and Mobile Developer
         startDate: 2021-09-01
         endDate: 2022-03-01
-        highlights:
-          - Responsible for developing solutions for internal prototyping, cross-system communications between hardware and web backend and product showcase
-          - Managed a team of developers and project scope which included assessments, risk evaluations, testing, and implementation.
-          - Created a cross-platform mobile application in *Flutter* and a backend in *NodeJS* with support for *REST*,  *Authentication*, *Cloud Synchronization*, and *Bluetooth Interfacing*
+        summary:  Led a team to develop a cross-platform mobile application using Flutter and a NodeJS backend with REST API, authentication, cloud synchronization, and Bluetooth interfacing capabilities.
 education:
   - institution: Arizona State University
     url: https://www.asu.edu/
@@ -65,25 +60,6 @@ education:
     courses: null
     highlights: null
 
-affiliations:
-  - organization: Open Source Developer
-    position: null
-    location: null
-    url: null
-    startDate: 2020-01-01
-    endDate: "present"
-    highlights:
-      - KDE Developer and creator of *cxx-kde-frameworks*
-      - Worked on multiple projects in several different fields including Art Software, Graphics Programming, Game modifications and User applications.
-  - organization: Google Developer Student Club
-    position: Android Facilitator and Flutter Lead
-    location: Pune, India
-    url: null
-    startDate: 2021-08-15
-    endDate: 2022-07-30
-    highlights:
-      - Organized Android Study Jams with Kotlin and Flutter Festival
-
 awards: null
 certificates: null
 
@@ -100,7 +76,7 @@ projects:
     startDate: null
     endDate: null
     highlights:
-      - Rust bridge for writing applications and widgets using Qt and KDE Frameworks.
+      - Rust bridge for writing applications and widgets using *Qt* and *KDE Frameworks*.
       - Created to reduce the effort required to make cross-platform applications in pure rust.
   - name: Game Modifications
     url: null
@@ -108,9 +84,8 @@ projects:
     startDate: null
     endDate: null
     highlights:
-      - Worked on several projects that use runtime bytecode manipulation to add, extend and modify functionality of a popular java game.
+      - Worked on several projects that use runtime bytecode manipulation to add, extend and modify functionality of a popular java game and have over 20 Million downloads
       - Areas of work include *networking*, *data synchronization*, *3D rendering* and optimization
-      - Over 20 Million downloads
   - name: Mobile Apps
     url: null
     affiliation: null
@@ -121,53 +96,35 @@ projects:
       - Warframe Market - Native Android App written in *Kotlin* using *Jetpack Compose* and *Dagger/Hilt*
 
 skills:
-  - category: Soft Skills
-    skills:
-      - Public Speaking
-      - Debating
-      - Critical Thinking
-      - Leadership
-  - category: Programming
-    skills:
-      - C/C++
-      - Java
-      - Kotlin
-      - Rust
-      - Dart
-      - Python
-      - Shell/Bash/Zsh
-      - Lua
-      - Javascript/Typescript
-  - category: Tools and Frameworks
-    skills:
-      - Linux
-      - Android
-      - Flutter
-      - Qt
-      - Gradle
-      - Godot Game Engine
-      - Unity Game Engine
-      - Gradle/Maven
-      - CMake
-      - OpenGL
-      - Vulkan
-  - category: Other
-    skills:
-      - Shell scripting and Automation
-      - CI/CD DevOps
-      - Testing
-
-languages:
-  - language: English
-    fluency: Proficient
-  - language: Hindi
-    fluency: Native speaker
-  - language: Marathi
-    fluency: Native speaker
-
-interests:
-  - Video Games
-  - Books
-  - Music
+    - C/C++
+    - Java
+    - Kotlin
+    - Rust
+    - Dart
+    - Python
+    - Shell/Bash/Zsh
+    - Linux
+    - Android
+    - Qt
+    - Flutter
+    - Lua
+    - HTML
+    - CSS
+    - Javascript
+    - Typescript
+    - SQL
+    - Kirigami
+    - Typst
+    - GraphQL
+    - Gradle
+    - Godot
+    - Unity
+    - Gradle/Maven
+    - CMake
+    - OpenGL
+    - Vulkan
+    - CI/CD
+    - DevOps
+    - Testing
 
 references: null

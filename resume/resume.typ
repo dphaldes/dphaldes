@@ -5,13 +5,13 @@
 #let uservars = (
     headingfont: "Libertinus Serif",
     bodyfont: "Libertinus Serif",
-    fontsize: 12pt, // 10pt, 11pt, 12pt
+    fontsize: 11pt, // 10pt, 11pt, 12pt
     linespacing: 6pt,
     sectionspacing: 0pt,
     showAddress:  true, // true/false show address in contact info
     showNumber: true,  // true/false show phone number in contact info
     showTitle: true,   // true/false show title in heading
-    headingsmallcaps: true, // true/false use small caps for headings
+    headingsmallcaps: false, // true/false use small caps for headings
     sendnote: false, // set to false to have sideways endnote
 )
 
@@ -26,7 +26,7 @@
     // add custom document style rules here
     set page(
         paper: "us-letter", // a4, us-letter
-        numbering: "1 / 1",
+        // numbering: "1 / 1",
         number-align: center, // left, center, right
         margin: 1.25cm, // 1.25cm, 1.87cm, 2.5cm
     )
@@ -47,13 +47,13 @@
 #show: doc => cvinit(doc)
 
 #cvheading(cvdata, uservars)
+#cvsummary(cvdata)
+#cvskills(cvdata)
 #cvwork(cvdata)
 #cveducation(cvdata)
-#cvaffiliations(cvdata)
 #cvprojects(cvdata)
 #cvawards(cvdata)
 #cvcertificates(cvdata)
 #cvpublications(cvdata)
-#cvskills(cvdata)
 #cvreferences(cvdata)
 #endnote(uservars)
